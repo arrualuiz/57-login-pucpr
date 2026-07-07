@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  background-color: #f2f4f8;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.field input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: #2d6cdf;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #2d6cdf;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #2159bd;
+}
+
+.btn-primary:disabled {
+  background-color: #9db6e8;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.message.success {
+  color: #1a7f37;
+}
+
+.message.error {
+  color: #c62828;
+}
+
+.link-row {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.link-row a {
+  color: #2d6cdf;
+  text-decoration: none;
+}
+
+.link-row a:hover {
+  text-decoration: underline;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.info-row span:first-child {
+  color: #666;
+}
+
+.info-row span:last-child {
+  color: #222;
+  font-weight: 600;
+}
