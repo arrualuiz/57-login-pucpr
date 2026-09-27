@@ -1,3 +1,17 @@
+# 57-login-pucpr — AS2 de Tecnologias Para Desenvolvimento Web (PUCPR, 2026/1)
+
+Segunda etapa do sistema de login: app React com React Router e Firebase (Authentication por e-mail/senha e Firestore) — telas de cadastro, login e página principal. A primeira etapa está em [51-valida-login-react](https://github.com/arrualuiz/51-valida-login-react).
+
+- `as2-final`: versão entregue (07/07/2026).
+
+## Configuração
+
+1. `npm install`
+2. Copie `.env.example` para `.env` e preencha com a configuração do app Web do seu projeto Firebase.
+3. `npm start`
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
