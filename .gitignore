@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# credenciais do Firebase (modelo em .env.example)
+.env
