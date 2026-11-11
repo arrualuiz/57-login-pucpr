@@ -1,3 +1,6 @@
 Link do deploy no Netlify:
 
 https://login-pucpr-atividade2.netlify.app/
+
+Fora do ar desde 10/11/2026: apaguei o site na Netlify porque o trabalho já foi entregue e ele não tinha mais uso.
+O código continua neste repositório.
